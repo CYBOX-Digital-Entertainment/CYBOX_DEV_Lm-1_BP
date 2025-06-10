@@ -23,9 +23,7 @@
       
       // 3. 원본 유지되는 라이딩 시스템
       "minecraft:rideable": {
-        "priority": 0,
         "seat_count": 2,
-        "rotate_rider_by": -90,
         "dismount_mode": "on_top_center",
         "family_types": ["player", "zombie"],
         "interact_text": "Ride",

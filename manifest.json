@@ -15,17 +15,12 @@
 			40
 		]
 	},
-	"modules": [
-		{
-			"type": "data",
-			"uuid": "3124130c-f6dc-497b-8e73-6f2f0d0cc51e",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
+	"dependencies": [
+  {
+    "module_name": "psybox",
+    "version": [2,1,4]
+  }
+],
 	"dependencies": [
 		{
 			"uuid": "7e9486f1-60fa-4a81-8400-ee426a47c89e",

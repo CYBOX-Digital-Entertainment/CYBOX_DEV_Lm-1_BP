@@ -40,14 +40,6 @@
         ],
         "rider_can_interact": true
       },
-      
-      // 4. 커스텀 차량 특성
-      "psybox:vehicle_physics": {
-        "mass": 1500.0,
-        "tire_friction": 0.8,
-        "max_speed": 25.0
-      },
-      
       // 5. 기본 생명력 설정
       "minecraft:health": {
         "value": 40,

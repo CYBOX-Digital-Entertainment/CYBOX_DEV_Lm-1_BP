@@ -5,7 +5,15 @@
       "identifier": "car:basic",
       "is_spawnable": true,
       "is_summonable": true,
-      "is_experimental": false
+      "is_experimental": false,
+	  "properties":{
+				"cybox:psybox":{
+					"type": "int", 
+					"range": [0, 1], 
+					"default": 0,
+					"client_sync": true
+                }
+			}
     },
     "components": {
       // 1. 필수 물리 컴포넌트

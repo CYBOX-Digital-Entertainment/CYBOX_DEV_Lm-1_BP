@@ -168,6 +168,16 @@
 			"minecraft:conditional_bandwidth_optimization": {}
     },
     "events": {
+		"phy_front": {
+				"set_property":{
+					"cybox:psybox": 0
+				}
+			},
+		"phy_back": {
+				"set_property":{
+					"cybox:psybox": 1
+				}
+			}
     }
   }
 }

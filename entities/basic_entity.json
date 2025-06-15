@@ -7,9 +7,15 @@
       "is_summonable": true,
       "is_experimental": false,
 	  "properties":{
-				"cybox:psybox":{
+				"cybox:phy_baf":{
 					"type": "int", 
 					"range": [0, 1], 
+					"default": 0,
+					"client_sync": true
+                },
+				"cybox:phy_brafr":{
+					"type": "int", 
+					"range": [0, 2], 
 					"default": 0,
 					"client_sync": true
                 }
@@ -68,7 +74,7 @@
 			"value": 11
 			},
 			"minecraft:movement": {
-				"value": 0.7
+				"value": 0.2
 			},
 			"minecraft:scale": {
 				"value": 1
@@ -170,12 +176,27 @@
     "events": {
 		"phy_front": {
 				"set_property":{
-					"cybox:psybox": 0
+					"cybox:phy_baf": 0
 				}
 			},
 		"phy_back": {
 				"set_property":{
-					"cybox:psybox": 1
+					"cybox:phy_baf": 1
+				}
+			},
+		"phy_normal": {
+				"set_property":{
+					"cybox:phy_brafr": 0
+				}
+			},
+		"phy_front_rotation": {
+				"set_property":{
+					"cybox:phy_brafr": 1
+				}
+			},
+		"phy_back_rotation": {
+				"set_property":{
+					"cybox:phy_brafr": 2
 				}
 			}
     }

@@ -176,17 +176,17 @@
     "events": {
 		"phy_front": {
 				"set_property":{
-					"cybox:phy_baf": 1
+					"cybox:phy_baf": 0
 				}
 			},
 		"phy_back": {
 				"set_property":{
-					"cybox:phy_baf": 2
+					"cybox:phy_baf": 1
 				}
 			},
 		"phy_normal": {
 				"set_property":{
-					"cybox:phy_baf": 0,
+					"cybox:phy_baf": 2,
 					"cybox:phy_brafr": 0
 				}
 			},
